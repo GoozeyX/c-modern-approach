@@ -6,7 +6,7 @@ int main()
 
     printf("Enter a dollar amount: ");
     scanf("%d", &amount);
-     int num_of_20 = amount / 20;
+    int num_of_20 = amount / 20;
     amount = (amount - (num_of_20 * 20));
     int num_of_10 = amount / 10;
     amount = (amount - (num_of_10 * 10));
